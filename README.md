@@ -2,7 +2,17 @@
 
 A complete, user-friendly, web-based **Applicant Tracking System (ATS) Resume Optimizer and Builder** mini-project built with **Python** and **Streamlit**.
 
-This project helps job seekers create professional, ATS-compliant resumes, analyze job descriptions, identify matching keywords, calculate ATS compatibility scores, and download high-resolution, single-column PDFs generated via **ReportLab**.
+This project helps job seekers create professional, ATS-compliant resumes, analyze job descriptions, identify matching keywords, calculate ATS compatibility scores, and download high-resolution, single-column PDF resumes with a clean corporate layout.
+
+## 👥 Project Team
+
+This mini project was developed by the following team members:
+
+- M. Katamaiah
+- P. Naveen
+- B. Charan Deekshith
+- B. Rajasekar
+- C. Yogananda
 
 ---
 
@@ -34,7 +44,7 @@ This project helps job seekers create professional, ATS-compliant resumes, analy
 
 ## 📁 Project Structure
 
-```
+```text
 ATS resumer1/
 ├── app.py                      # Main Streamlit web application & sidebar router
 ├── requirements.txt            # Python dependencies
@@ -110,8 +120,9 @@ Before launching the UI, verify your installation by running the automated test 
 ```powershell
 py test_app.py
 ```
+
 *Expected output:*
-```
+```text
 ============================================================
 ATS Resumer Mini-Project - Automated Test Suite
 ============================================================
@@ -145,7 +156,7 @@ py -m streamlit run app.py
 ```
 
 The application will automatically start and open in your default web browser at:
-```
+```text
 http://localhost:8501
 ```
 
@@ -189,6 +200,3 @@ py -m pip install -r requirements.txt
 
 ## 📜 License & Academic Notice
 Developed as a computer science mini-project demonstration for resume optimization, natural language processing, and ATS compliance. Free for educational and personal use.
-#   A T S R e s u m e r  
- #   A T S R e s u m e r  
- 
